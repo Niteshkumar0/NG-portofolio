@@ -1,0 +1,26 @@
+.navbar-layout{
+    display: flex;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    justify-content:space-between;
+    padding: 1rem 2rem;
+    background-color: #333333;
+    color: whitesmoke;
+    min-height: 10vh;
+    min-width: 100vw;
+    max-width: 1200px;
+    position: fixed;
+    box-shadow: 1px 1px 7px black;
+    backdrop-filter: blur(10px);
+    z-index: 10;
+    
+}
+.navbar-layout .logo{
+    font-family: 'Borel', cursive;
+    font-size: 1.5rem;
+    margin-top: 0.7rem;
+}
+.navbar-layout .mode{
+    font-size: 1.6rem;
+}
